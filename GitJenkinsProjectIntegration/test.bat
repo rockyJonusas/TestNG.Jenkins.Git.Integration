@@ -1,0 +1,1 @@
+java -cp C:\Program Files\git\GitJenkinsProjectIntegration\bin;lib/* org.testng.TestNG testng.xml     

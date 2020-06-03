@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="858" started-at="2020-05-27T03:58:31Z" finished-at="2020-05-27T03:58:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="858" started-at="2020-05-27T03:58:31Z" finished-at="2020-05-27T03:58:31Z">
+      <class name="test.Demo1">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:test.Demo1@d6c65d8]" name="setup" is-config="true" duration-ms="11297" started-at="2020-05-27T13:58:19Z" finished-at="2020-05-27T13:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.82.180.36/Common/Login.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.Demo1@d6c65d8]" name="login" duration-ms="848" started-at="2020-05-27T13:58:31Z" finished-at="2020-05-27T13:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Demo1@d6c65d8]" name="tearDown" is-config="true" duration-ms="1029" started-at="2020-05-27T13:58:31Z" finished-at="2020-05-27T13:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Demo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
